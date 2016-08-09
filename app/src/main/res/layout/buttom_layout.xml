@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/home_btn"
+            android:onClick="myclick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@mipmap/home"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="爱家乡"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/publish_btn"
+            android:onClick="myclick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@mipmap/publish"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="发布"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/wode_btn"
+            android:onClick="myclick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@mipmap/wode"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="我的"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+        </LinearLayout>
+
+</LinearLayout>
