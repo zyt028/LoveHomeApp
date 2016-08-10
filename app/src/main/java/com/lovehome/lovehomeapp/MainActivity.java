@@ -1,21 +1,14 @@
 package com.lovehome.lovehomeapp;
 
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v4.view.ViewPager;
-import android.util.Log;
 import android.view.View;
-import android.widget.LinearLayout;
 
 import com.lovehome.lovehome.LoveHome;
 import com.lovehome.my.My;
 import com.lovehome.publish.Publish;
-
-import java.util.ArrayList;
 
 public class MainActivity extends FragmentActivity {
 
