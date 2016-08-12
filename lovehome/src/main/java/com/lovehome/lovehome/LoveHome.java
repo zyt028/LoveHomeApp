@@ -13,7 +13,7 @@ public class LoveHome extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater,  ViewGroup container,  Bundle savedInstanceState) {
 
-        View v=inflater.inflate(R.layout.lovehome_layout, null);
+        View v=inflater.inflate(R.layout.home_pager_title_layout, null);
         return v;
 
     }

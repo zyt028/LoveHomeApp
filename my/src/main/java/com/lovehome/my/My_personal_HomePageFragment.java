@@ -7,16 +7,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by Administrator on 2016/8/9.
- */
-public class My extends Fragment {
-    @Nullable
-    @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        View v=inflater.inflate(R.layout.my_personal_head_layout, null);
-        return v;
+/**
+ * Created by CYLL on 2016/8/9.
+ */
+public class My_personal_HomePageFragment extends Fragment{
+
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view=inflater.inflate(R.layout.my_homepage_layout,null);
+
+        return view;
 
     }
 }
